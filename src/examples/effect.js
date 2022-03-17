@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 
+//Хук эффекта даёт вам возможность выполнять побочные эффекты в функциональном компоненте (загрузка данных, оформление подписки и изменение DOM вручную)
+
 function App() {
   const [type, setType] = useState('users');
   const [data, setData] = useState([]);
